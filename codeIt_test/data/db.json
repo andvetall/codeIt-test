@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "userName": "Vitalii",
+      "userNameTwo": "Andriichuk",
+      "userEmail": "andvetall13@yandex.ru",
+      "userGender": "male",
+      "userPassword": "3bc95e50e8447474ea7ea79c2a388aa73557e080d4e3cfcfeaf59e2918180289",
+      "id": 1
+    }
+  ],
+  "validation": [
+    {
+      "message": "Email is not valid",
+      "field": "email",
+      "status": "Form Error"
+    },
+    {
+      "message": "Field 'secondname' should contain from 3 to 60 letters",
+      "field": "secondname",
+      "status": "Form Error"
+    }
+  ]
+}

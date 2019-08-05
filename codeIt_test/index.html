@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/log-in.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/chrisveness/crypto/4e93a4d/sha256.js"></script>
+    <title>TEST_JOB</title>
+</head>
+<body>
+
+<div class="modal-sign-in_wrapper open">
+    <div class="modal-sign-in_block">
+        <p class="modal-sign-in_title">
+            Sign Up
+        </p>
+        <form id="user-form" class="modal-sign-in_form" action="#" onsubmit="validateEmail('user-form', 'user-email')">
+            <div class="custom-before">
+                <img src="images/user.png" alt="user">
+                <input id="user-name" type="text" placeholder="username" required>
+            </div>
+            <div class="custom-before">
+                <img src="images/user.png" alt="user">
+                <input id="user-name-two" type="text" placeholder="username" required>
+            </div>
+            <div class="custom-before">
+                <img src="images/mail.png" alt="mail">
+                <input id="user-email" type="text" placeholder="email" required>
+            </div>
+            <select id="user-gender" name="gender" id="modal-sign-in_gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <div class="custom-before">
+                <img src="images/password.png" alt="password">
+                <input id="user-password" type="password" placeholder="password" required>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="condition">
+                <label for="condition">Condition of Agreement</label>
+            </div>
+            <input class="modal-sign-in_button" type="submit" value="Send">
+        </form>
+    </div>
+        
+</div>
+
+<script type="text/javascript" src="js/index.js" defer></script>
+</body>
+</html>
